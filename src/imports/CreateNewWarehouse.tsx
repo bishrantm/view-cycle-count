@@ -1,0 +1,1176 @@
+import { createWarehouseIcons as svgPaths } from "./icons";
+import imgAvatar from "figma:asset/4bc2046dd82ac8ecf50dac73d271ca3152b554ac.png";
+import imgAvatar1 from "figma:asset/58fa559ab56378f83dc49b7fe1e5abdae07d4852.png";
+import imgAvatar2 from "figma:asset/8b5cffbce56296888a79e3124ac2c4b8fb3fc65e.png";
+import imgImage from "figma:asset/9edf3ae748122d6ad61287f140b75382b5902a6a.png";
+import imgImage1 from "figma:asset/69115701eb59753545c34c08b5df63d986702686.png";
+import imgImage2 from "figma:asset/2bbe2f6875f0243664a668c035b6de655f106dd4.png";
+
+function Icon() {
+  return (
+    <div className="h-[24px] relative shrink-0 w-[20px]" data-name="Icon">
+      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 20 24">
+        <g id="Icon">
+          <path d={svgPaths.p2a271b00} fill="var(--fill-0, #68727D)" id="Vector" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Heading() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] gap-[8px] items-center min-h-px min-w-px relative" data-name="Heading">
+      <Icon />
+      <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[#68727d] text-[18px] tracking-[-0.18px]">Plan Cycle Count</p>
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <div className="content-stretch flex items-start justify-between py-[20px] shrink-0 sticky top-0 w-full" data-name="Header">
+      <Heading />
+    </div>
+  );
+}
+
+function MovementNameInputArea() {
+  return (
+    <div className="content-stretch flex flex-col items-start justify-center pb-[8px] relative shrink-0 w-full" data-name="Movement Name Input Area">
+      <div aria-hidden="true" className="absolute border-[#c1c3c7] border-b border-dashed inset-[0_0_-0.5px_0] pointer-events-none" />
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#252525] text-[20px] text-left tracking-[-0.2px]">Front bulkhead cabinet lower cover inlay</p>
+    </div>
+  );
+}
+
+function MovementNameField() {
+  return (
+    <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[944px]" data-name="Movement Name Field">
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[14px] text-left">Describe the Plan (optional)</p>
+      <MovementNameInputArea />
+    </div>
+  );
+}
+
+function Frame35() {
+  return (
+    <button className="content-stretch cursor-pointer flex flex-col items-start relative shrink-0">
+      <MovementNameField />
+    </button>
+  );
+}
+
+function Name() {
+  return (
+    <div className="content-stretch flex flex-col gap-[2px] items-start leading-[normal] overflow-clip relative shrink-0" data-name="Name">
+      <p className="font-['Figtree:Regular',sans-serif] font-normal min-w-full relative shrink-0 text-[#68727d] text-[13px] w-[min-content] whitespace-pre-wrap">Priority</p>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium relative shrink-0 text-[#252525] text-[14px]">Standard</p>
+    </div>
+  );
+}
+
+function Frame24() {
+  return (
+    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+      <div className="overflow-clip relative shrink-0 size-[20px]" data-name="av_timer">
+        <div className="absolute inset-[12.5%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 15 15">
+            <path d={svgPaths.p182a900} fill="var(--fill-0, #68727D)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <Name />
+    </div>
+  );
+}
+
+function DateSelector() {
+  return (
+    <div className="bg-white content-stretch flex h-full items-center justify-between pl-[12px] pr-[16px] py-[6px] relative rounded-[36px] shrink-0 w-[160px]" data-name="Date Selector">
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[36px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+      <Frame24 />
+      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="arrow_down_ios">
+        <div className="absolute flex inset-[25.69%_8.75%] items-center justify-center">
+          <div className="-rotate-90 flex-none h-[19.8px] w-[11.67px]">
+            <div className="relative size-full" data-name="Vector">
+              <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7.78 13.2">
+                <path d={svgPaths.p2a58a9c0} fill="var(--fill-0, #68727D)" id="Vector" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ToggleBase() {
+  return (
+    <div className="bg-[#e5e5e7] content-stretch flex h-[16px] items-center p-[2px] relative rounded-[16px] shrink-0 w-[27.2px]" data-name="Toggle Base">
+      <div className="bg-white rounded-[128px] shadow-[0px_0.8px_1.6px_-0.8px_rgba(16,24,40,0.1),0px_0.8px_2.4px_0px_rgba(16,24,40,0.1)] shrink-0 size-[12px]" data-name="Button" />
+    </div>
+  );
+}
+
+function DateSelector1() {
+  return (
+    <div className="bg-white content-stretch flex gap-[8px] h-[48px] items-center pl-[12px] pr-[16px] py-[6px] relative rounded-[36px] shrink-0" data-name="Date Selector">
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[36px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+      <div className="content-stretch flex items-start py-[2px] relative shrink-0" data-name="Toggle">
+        <ToggleBase />
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[16px]">Schedule Plan</p>
+    </div>
+  );
+}
+
+function Frame37() {
+  return (
+    <div className="content-stretch flex gap-[10px] h-full items-center relative shrink-0">
+      <DateSelector />
+      <DateSelector1 />
+    </div>
+  );
+}
+
+function Name1() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[2px] items-start leading-[normal] min-h-px min-w-px overflow-clip relative" data-name="Name">
+      <p className="font-['Figtree:Regular',sans-serif] font-normal min-w-full relative shrink-0 text-[#68727d] text-[13px] w-[min-content] whitespace-pre-wrap">Tags</p>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium h-[15px] overflow-hidden relative shrink-0 text-[#252525] text-[14px] text-ellipsis w-[100px] whitespace-nowrap">1 Selected</p>
+    </div>
+  );
+}
+
+function Frame25() {
+  return (
+    <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-[135px]">
+      <div className="overflow-clip relative shrink-0 size-[20px]" data-name="new_label">
+        <div className="absolute inset-[18.75%_10.42%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 15.8333 12.5">
+            <path d={svgPaths.p3369ec00} fill="var(--fill-0, #68727D)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <Name1 />
+    </div>
+  );
+}
+
+function DateSelector2() {
+  return (
+    <div className="bg-white content-stretch flex h-full items-center pl-[12px] pr-[16px] py-[6px] relative rounded-[36px] shrink-0" data-name="Date Selector">
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[36px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+      <Frame25 />
+    </div>
+  );
+}
+
+function ExtraInfo() {
+  return (
+    <div className="content-stretch flex h-[48px] items-center justify-between relative shrink-0 w-[944px]" data-name="Extra Info">
+      <Frame37 />
+      <DateSelector2 />
+    </div>
+  );
+}
+
+function Frame36() {
+  return (
+    <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0">
+      <Frame35 />
+      <ExtraInfo />
+    </div>
+  );
+}
+
+function Healper() {
+  return (
+    <div className="content-stretch flex gap-[2px] items-center relative shrink-0 w-full" data-name="Healper">
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[14px]">Search items and select them for counting.</p>
+      <div className="content-stretch flex gap-[2px] items-center justify-center overflow-clip relative rounded-[6px] shrink-0" data-name="Learn More Button">
+        <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[20px] relative shrink-0 text-[#0a77ff] text-[14px] tracking-[0.1px]">Learn more</p>
+        <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Style=Outlined">
+          <div className="absolute inset-[22.92%]" data-name="Vector">
+            <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 13 13">
+              <path d={svgPaths.p15306e80} fill="var(--fill-0, #2C8AFF)" id="Vector" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Heading1() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[4px] h-full items-start justify-center min-h-px min-w-px relative z-[3]" data-name="Heading">
+      <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[#252525] text-[18px] tracking-[-0.18px]">Choose items to count</p>
+      <Healper />
+    </div>
+  );
+}
+
+function Avatars() {
+  return (
+    <div className="content-stretch flex items-center pr-[8px] relative shrink-0" data-name="Avatars">
+      <div className="mr-[-8px] pointer-events-none relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute inset-0 rounded-[128px]">
+          <div className="absolute bg-[#ffb145] inset-0 rounded-[128px]" />
+          <img alt="" className="absolute max-w-none object-cover rounded-[128px] size-full" src={imgAvatar} />
+        </div>
+        <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-[-2px] rounded-[130px]" />
+      </div>
+      <div className="mr-[-8px] pointer-events-none relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute inset-0 rounded-[128px]">
+          <div className="absolute bg-[#aed3dc] inset-0 rounded-[128px]" />
+          <img alt="" className="absolute max-w-none object-cover rounded-[128px] size-full" src={imgAvatar1} />
+        </div>
+        <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-[-2px] rounded-[130px]" />
+      </div>
+      <div className="mr-[-8px] pointer-events-none relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute inset-0 rounded-[128px]">
+          <div className="absolute bg-[#44978a] inset-0 rounded-[128px]" />
+          <img alt="" className="absolute max-w-none object-cover rounded-[128px] size-full" src={imgAvatar2} />
+        </div>
+        <div aria-hidden="true" className="absolute border-3 border-solid border-white inset-[-3px] rounded-[131px]" />
+      </div>
+      <div className="bg-[#0a77ff] content-stretch flex items-center justify-center mr-[-8px] relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-[-2px] pointer-events-none rounded-[130px]" />
+        <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[14px] text-center text-white">+2</p>
+      </div>
+    </div>
+  );
+}
+
+function Name2() {
+  return (
+    <div className="content-stretch flex flex-col gap-[2px] items-start overflow-clip relative shrink-0" data-name="Name">
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] min-w-full relative shrink-0 text-[#68727d] text-[16px] w-[min-content] whitespace-pre-wrap">Assignee</p>
+    </div>
+  );
+}
+
+function DateSelector3() {
+  return (
+    <div className="bg-white content-stretch flex gap-[12px] h-full items-center pl-[8px] pr-[16px] py-[6px] relative rounded-[36px] shrink-0 z-[1]" data-name="Date Selector">
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[36px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+      <Avatars />
+      <Name2 />
+    </div>
+  );
+}
+
+function CardHeader() {
+  return (
+    <div className="relative rounded-tl-[12px] rounded-tr-[12px] shrink-0 w-full z-[3]" data-name="Card Header">
+      <div className="flex flex-row items-center size-full">
+        <div className="content-stretch flex gap-[12px] isolate items-center pb-[24px] pt-[16px] px-[16px] relative w-full">
+          <div className="flex flex-[1_0_0] flex-row items-center self-stretch">
+            <Heading1 />
+          </div>
+          <div className="flex flex-row items-center self-stretch">
+            <DateSelector3 />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame27() {
+  return (
+    <div className="content-stretch flex gap-[8px] items-center relative shrink-0">
+      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Essentials/zoom/search">
+        <div className="absolute inset-[8.33%]" data-name="Icon">
+          <div className="absolute inset-[-6.67%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 15.1111 15.1111">
+              <path d={svgPaths.p1c91b980} id="Icon" stroke="var(--stroke-0, #C1C3C7)" strokeLinecap="round" strokeWidth="1.77778" />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#a1a4ac] text-[14px]">Enter item, location or category</p>
+    </div>
+  );
+}
+
+function Frame28() {
+  return (
+    <div className="content-stretch flex gap-[4px] items-center relative shrink-0">
+      <div className="bg-[#f7f7f8] content-stretch flex gap-[4px] items-center px-[8px] py-[2px] relative rounded-[6px] shrink-0" data-name="Label">
+        <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[6px]" />
+        <div className="overflow-clip relative shrink-0 size-[12px]" data-name="Lead Icon">
+          <div className="absolute inset-[12.5%]" data-name="Vector">
+            <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9 9">
+              <path d={svgPaths.p34dee000} fill="var(--fill-0, black)" id="Vector" />
+            </svg>
+          </div>
+        </div>
+        <p className="font-['Source_Code_Pro:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#252525] text-[14px]">K</p>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#a1a4ac] text-[14px]">for filter</p>
+    </div>
+  );
+}
+
+function TextInput() {
+  return (
+    <div className="bg-white flex-[1_0_0] min-h-px min-w-px relative rounded-[6px] w-full" data-name="Text input">
+      <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
+        <div className="content-stretch flex items-center justify-between px-[12px] py-[10px] relative size-full">
+          <Frame27 />
+          <Frame28 />
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-[-0.5px] pointer-events-none rounded-[6.5px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+    </div>
+  );
+}
+
+function Search() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] h-full items-center justify-center min-h-px min-w-px relative" data-name="Search">
+      <TextInput />
+    </div>
+  );
+}
+
+function SearchBar() {
+  return (
+    <div className="h-[37px] relative shrink-0 w-full z-[2]" data-name="Search Bar">
+      <div className="flex flex-row items-center size-full">
+        <div className="content-stretch flex gap-[8px] items-center px-[16px] relative size-full">
+          <Search />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame() {
+  return (
+    <div className="h-[82px] relative rounded-[6px] shrink-0 w-[80px]">
+      <div className="overflow-clip relative rounded-[inherit] size-full">
+        <div className="absolute inset-[-3.66%_-5%]" data-name="image">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage} />
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border-[#eaebf0] border-[0.8px] border-solid inset-0 pointer-events-none rounded-[6px]" />
+    </div>
+  );
+}
+
+function Frame4() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start leading-[normal] relative shrink-0 w-full">
+      <p className="font-['Figtree:SemiBold',sans-serif] font-semibold relative shrink-0 text-[#252525] text-[16px]">P-100219-42</p>
+      <p className="font-['Figtree:Regular',sans-serif] font-normal overflow-hidden relative shrink-0 text-[#68727d] text-[14px] text-ellipsis w-[200px] whitespace-pre-wrap">Steel Bolt M8 × 40 mm – Zinc Coated</p>
+    </div>
+  );
+}
+
+function MdiBarcodeOff() {
+  return (
+    <div className="relative shrink-0 size-[16px]" data-name="mdi:barcode-off">
+      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
+        <g id="mdi:barcode-off">
+          <path d={svgPaths.p3854d600} fill="var(--fill-0, #252525)" id="Vector" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame3() {
+  return (
+    <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[220px]">
+      <Frame4 />
+      <div className="bg-[#eaebf0] content-stretch flex gap-[2px] items-center px-[6px] py-[2px] relative rounded-[4px] shrink-0" data-name="Item Type Tags">
+        <MdiBarcodeOff />
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#252525] text-[12px]">Non-Serialized</p>
+      </div>
+    </div>
+  );
+}
+
+function Container() {
+  return (
+    <div className="content-stretch flex flex-col gap-[12px] items-start pl-[12px] relative shrink-0" data-name="Container">
+      <Frame3 />
+    </div>
+  );
+}
+
+function Data() {
+  return (
+    <div className="absolute content-stretch flex items-center left-[12px] top-[12px]" data-name="Data">
+      <Frame />
+      <Container />
+    </div>
+  );
+}
+
+function Frame1() {
+  return (
+    <div className="h-[82px] relative rounded-[6px] shrink-0 w-[80px]">
+      <div className="overflow-clip relative rounded-[inherit] size-full">
+        <div className="absolute inset-[-3.66%_-5%]" data-name="image">
+          <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-white inset-0" />
+            <div className="absolute inset-0 overflow-hidden">
+              <img alt="" className="absolute left-1/4 max-w-none size-1/2 top-1/4" src={imgImage1} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border-[#eaebf0] border-[0.8px] border-solid inset-0 pointer-events-none rounded-[6px]" />
+    </div>
+  );
+}
+
+function Frame6() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start leading-[normal] relative shrink-0 text-left w-full">
+      <p className="font-['Figtree:SemiBold',sans-serif] font-semibold relative shrink-0 text-[#252525] text-[16px]">P 200-12</p>
+      <p className="font-['Figtree:Regular',sans-serif] font-normal overflow-hidden relative shrink-0 text-[#68727d] text-[14px] text-ellipsis w-[200px] whitespace-pre-wrap">Steel Bolt M8 × 40 mm – Zinc Coated</p>
+    </div>
+  );
+}
+
+function MemoryBarcode() {
+  return (
+    <div className="relative shrink-0 size-[16px]" data-name="memory:barcode">
+      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
+        <g id="memory:barcode">
+          <path d={svgPaths.p13615bb1} fill="var(--fill-0, #252525)" id="Vector" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function Frame5() {
+  return (
+    <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[220px]">
+      <Frame6 />
+      <div className="bg-[#eaebf0] content-stretch flex gap-[2px] items-center px-[6px] py-[2px] relative rounded-[4px] shrink-0" data-name="Item Type Tags">
+        <MemoryBarcode />
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#252525] text-[12px] text-left">Serialized</p>
+      </div>
+    </div>
+  );
+}
+
+function Container1() {
+  return (
+    <div className="content-stretch flex flex-col gap-[12px] items-start pl-[12px] relative shrink-0" data-name="Container">
+      <Frame5 />
+    </div>
+  );
+}
+
+function Data1() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0" data-name="Data">
+      <Frame1 />
+      <Container1 />
+    </div>
+  );
+}
+
+function Frame38() {
+  return (
+    <div className="content-stretch flex flex-col gap-[14px] items-start relative shrink-0">
+      <div className="bg-[#f3f9ff] h-[110px] relative rounded-[8px] shadow-[0px_0px_1px_0px_rgba(113,128,150,0.04),0px_4px_8px_0px_rgba(113,128,150,0.08)] shrink-0 w-[364px]" data-name="Count Type Thumbnails">
+        <Data />
+        <div className="-translate-y-1/2 absolute flex items-center justify-center left-[347.95px] size-[27.373px] top-[calc(50%+0.68px)]" style={{ "--transform-inner-width": "1184.65625", "--transform-inner-height": "0" } as React.CSSProperties}>
+          <div className="-rotate-45 flex-none">
+            <div className="bg-[#f3f9ff] rounded-[2px] size-[19.355px]" />
+          </div>
+        </div>
+        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_0.1px_0.4px_1.8px_0px_rgba(90,185,254,0.35),inset_-0.4px_-0.2px_2.4px_0px_rgba(47,79,102,0.45)]" />
+      </div>
+      <button className="bg-[#fafbfc] content-stretch cursor-pointer flex h-[110px] items-center p-[12px] relative rounded-[8px] shrink-0 w-[364px]" data-name="Component 48">
+        <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[8px]" />
+        <Data1 />
+      </button>
+    </div>
+  );
+}
+
+function Frame7() {
+  return (
+    <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-[364px]">
+      <Frame38 />
+      <button className="bg-white cursor-pointer relative rounded-[6px] shrink-0 w-full" data-name="Button">
+        <div className="flex flex-row items-center justify-center overflow-clip rounded-[inherit] size-full">
+          <div className="content-stretch flex gap-[6px] items-center justify-center pl-[8px] pr-[12px] py-[8px] relative w-full">
+            <div className="overflow-clip relative shrink-0 size-[16px]" data-name="Style=Outlined">
+              <div className="absolute inset-[20.83%]" data-name="Vector">
+                <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 14 14">
+                  <path d={svgPaths.p38adf480} fill="var(--fill-0, #0A77FF)" id="Vector" />
+                </svg>
+              </div>
+            </div>
+            <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[20px] relative shrink-0 text-[#0a77ff] text-[14px] text-left tracking-[0.1px]">Add Items</p>
+          </div>
+        </div>
+        <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-[-0.5px] pointer-events-none rounded-[6.5px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+      </button>
+    </div>
+  );
+}
+
+function ItemImage() {
+  return (
+    <div className="relative rounded-[6px] shrink-0 size-[86px]" data-name="Item Image">
+      <div className="overflow-clip relative rounded-[inherit] size-full">
+        <div className="absolute inset-[-3.66%_-5%]" data-name="image">
+          <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
+            <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage2} />
+            <img alt="" className="absolute max-w-none object-cover size-full" src={imgImage} />
+          </div>
+        </div>
+      </div>
+      <div aria-hidden="true" className="absolute border-[#eaebf0] border-[0.8px] border-solid inset-0 pointer-events-none rounded-[6px]" />
+    </div>
+  );
+}
+
+function PartNoQuantity() {
+  return (
+    <div className="content-stretch flex items-start relative shrink-0 w-full" data-name="Part No + Quantity">
+      <p className="flex-[1_0_0] font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] min-h-px min-w-px relative text-[#252525] text-[18px] whitespace-pre-wrap">P-100219-42</p>
+    </div>
+  );
+}
+
+function Frame26() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0 w-full">
+      <PartNoQuantity />
+      <p className="font-['Figtree:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#252525] text-[14px] text-ellipsis w-[271px] whitespace-pre-wrap">Steel Bolt M8 × 40 mm – Zinc Coated</p>
+    </div>
+  );
+}
+
+function MdiBarcodeOff1() {
+  return (
+    <div className="relative shrink-0 size-[16px]" data-name="mdi:barcode-off">
+      <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 16 16">
+        <g id="mdi:barcode-off">
+          <path d={svgPaths.p153f9a00} fill="var(--fill-0, #252525)" id="Vector" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function ItemTypeTags() {
+  return (
+    <div className="bg-[#efeff1] content-stretch flex gap-[2px] h-[21px] items-center px-[6px] py-[3px] relative rounded-[6px] shrink-0" data-name="Item Type Tags">
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[6px]" />
+      <div className="overflow-clip relative shrink-0 size-[12px]" data-name="Lead Icon">
+        <div className="absolute inset-[8.33%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 10">
+            <path d={svgPaths.p2a387280} fill="var(--fill-0, black)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#252525] text-[14px]">8 Categories</p>
+    </div>
+  );
+}
+
+function ItemTypeTags1() {
+  return (
+    <div className="bg-[#efeff1] content-stretch flex gap-[2px] h-[21px] items-center px-[6px] py-[3px] relative rounded-[6px] shrink-0" data-name="Item Type Tags">
+      <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[6px]" />
+      <div className="overflow-clip relative shrink-0 size-[12px]" data-name="Lead Icon">
+        <div className="absolute inset-[8.33%_20.83%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 7 10">
+            <g id="Vector">
+              <path d={svgPaths.p3df6ab00} fill="var(--fill-0, black)" />
+              <path d={svgPaths.p279f4900} fill="var(--fill-0, black)" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#252525] text-[14px]">4 Locations</p>
+    </div>
+  );
+}
+
+function ExtraInfo1() {
+  return (
+    <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-name="Extra Info">
+      <div className="bg-[#efeff1] content-stretch flex gap-[4px] items-center px-[8px] py-[2px] relative rounded-[6px] shrink-0" data-name="Item control type">
+        <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[6px]" />
+        <MdiBarcodeOff1 />
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#252525] text-[14px]">Non-Serialized</p>
+      </div>
+      <ItemTypeTags />
+      <ItemTypeTags1 />
+    </div>
+  );
+}
+
+function Header1() {
+  return (
+    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-h-px min-w-px relative" data-name="Header">
+      <Frame26 />
+      <ExtraInfo1 />
+    </div>
+  );
+}
+
+function ItemDetails() {
+  return (
+    <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-[512px]" data-name="Item Details">
+      <ItemImage />
+      <Header1 />
+      <button className="bg-[#f7f7f8] content-stretch cursor-pointer flex items-center px-[6px] py-[4px] relative rounded-[6px] shrink-0" data-name="Label">
+        <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[#252525] text-[14px] text-left">5,000 EA On Hand</p>
+      </button>
+    </div>
+  );
+}
+
+function Heading2() {
+  return (
+    <div className="content-stretch flex items-center relative shrink-0" data-name="Heading">
+      <div className="flex flex-col font-['Figtree:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#68727d] text-[13px] whitespace-nowrap">
+        <p className="leading-[normal]">Assigned Owners</p>
+      </div>
+    </div>
+  );
+}
+
+function Avatars1() {
+  return (
+    <div className="content-stretch flex items-center pr-[8px] relative shrink-0" data-name="Avatars">
+      <div className="mr-[-8px] pointer-events-none relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute inset-0 rounded-[128px]">
+          <div className="absolute bg-[#ffb145] inset-0 rounded-[128px]" />
+          <img alt="" className="absolute max-w-none object-cover rounded-[128px] size-full" src={imgAvatar} />
+        </div>
+        <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-[-2px] rounded-[130px]" />
+      </div>
+      <div className="mr-[-8px] pointer-events-none relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute inset-0 rounded-[128px]">
+          <div className="absolute bg-[#aed3dc] inset-0 rounded-[128px]" />
+          <img alt="" className="absolute max-w-none object-cover rounded-[128px] size-full" src={imgAvatar1} />
+        </div>
+        <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-[-2px] rounded-[130px]" />
+      </div>
+      <div className="mr-[-8px] pointer-events-none relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute inset-0 rounded-[128px]">
+          <div className="absolute bg-[#44978a] inset-0 rounded-[128px]" />
+          <img alt="" className="absolute max-w-none object-cover rounded-[128px] size-full" src={imgAvatar2} />
+        </div>
+        <div aria-hidden="true" className="absolute border-3 border-solid border-white inset-[-3px] rounded-[131px]" />
+      </div>
+      <div className="bg-[#0a77ff] content-stretch flex items-center justify-center mr-[-8px] relative rounded-[128px] shrink-0 size-[36px]" data-name="Avatar">
+        <div aria-hidden="true" className="absolute border-2 border-solid border-white inset-[-2px] pointer-events-none rounded-[130px]" />
+        <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[14px] text-center text-white">+2</p>
+      </div>
+    </div>
+  );
+}
+
+function Frame33() {
+  return (
+    <div className="content-stretch flex gap-[8px] h-[36px] items-center relative shrink-0 w-[512px]">
+      <Heading2 />
+      <div className="content-stretch flex gap-[8px] items-start relative shrink-0" data-name="Avatar group">
+        <Avatars1 />
+      </div>
+    </div>
+  );
+}
+
+function Frame34() {
+  return (
+    <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0">
+      <div className="h-0 relative shrink-0 w-[540px]">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 540 1.00005">
+            <line id="Line 1467" stroke="var(--stroke-0, #EAEBF0)" x1="4.37114e-08" x2="540" y1="0.5" y2="0.500047" />
+          </svg>
+        </div>
+      </div>
+      <Frame33 />
+    </div>
+  );
+}
+
+function Frame19() {
+  return (
+    <div className="bg-white content-stretch flex flex-col gap-[14px] items-center justify-center py-[8px] relative rounded-[8px] shadow-[0px_0px_1px_0px_rgba(113,128,150,0.04),0px_4px_8px_0px_rgba(113,128,150,0.08)] shrink-0 w-full">
+      <ItemDetails />
+      <Frame34 />
+    </div>
+  );
+}
+
+function Checkbox() {
+  return (
+    <div className="bg-[#0a77ff] relative rounded-[6px] shrink-0 size-[20px]" data-name="Checkbox">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 overflow-clip size-[12px] top-1/2" data-name="Essentials/check">
+        <div className="absolute bottom-1/4 left-[16.67%] right-[16.67%] top-[29.17%]" data-name="Icon">
+          <div className="absolute inset-[-18.18%_-12.5%_-14.42%_-12.5%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 7.29289">
+              <path d={svgPaths.pb22ca00} id="Icon" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeWidth="2" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AlignToText() {
+  return (
+    <div className="content-stretch flex items-center justify-center py-[2px] relative shrink-0" data-name="Align to Text">
+      <Checkbox />
+    </div>
+  );
+}
+
+function Frame29() {
+  return (
+    <div className="content-stretch flex gap-[16px] items-center relative shrink-0">
+      <div className="content-stretch cursor-pointer flex gap-[12px] items-center relative shrink-0" data-name="Checkbox">
+        <AlignToText />
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[15px] w-[240px] whitespace-pre-wrap">Count all 4 Locations</p>
+    </div>
+  );
+}
+
+function Checkbox1() {
+  return (
+    <div className="bg-[#fafbfc] relative rounded-[6px] shrink-0 size-[20px]" data-name="Checkbox">
+      <div aria-hidden="true" className="absolute border-2 border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[6px]" />
+    </div>
+  );
+}
+
+function AlignToText1() {
+  return (
+    <div className="content-stretch flex items-center justify-center py-[2px] relative shrink-0" data-name="Align to Text">
+      <Checkbox1 />
+    </div>
+  );
+}
+
+function Frame14() {
+  return (
+    <div className="content-stretch flex gap-[4px] items-center relative shrink-0">
+      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="place">
+        <div className="absolute inset-[8.33%_20.83%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.33333 13.3333">
+            <path d={svgPaths.p31325400} fill="var(--fill-0, #68727D)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] overflow-hidden relative shrink-0 text-[#252525] text-[16px] text-ellipsis">WH-A01</p>
+    </div>
+  );
+}
+
+function Frame20() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0">
+      <Frame14 />
+      <p className="font-['Figtree:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#68727d] text-[13px] text-ellipsis">Loading Dock 1, Central Distribution Center</p>
+    </div>
+  );
+}
+
+function Frame9() {
+  return (
+    <div className="content-stretch flex gap-[14px] items-start relative shrink-0">
+      <div className="content-stretch cursor-pointer flex gap-[8px] items-center relative shrink-0" data-name="Checkbox">
+        <AlignToText1 />
+      </div>
+      <Frame20 />
+    </div>
+  );
+}
+
+function Frame11() {
+  return (
+    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+      <Frame9 />
+      <div className="bg-[#f7f7f8] content-stretch flex items-center px-[8px] py-[2px] relative rounded-[128px] shrink-0" data-name="Label">
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[13px]">1,000 EA</p>
+      </div>
+    </div>
+  );
+}
+
+function Checkbox2() {
+  return (
+    <div className="bg-[#0a77ff] relative rounded-[6px] shrink-0 size-[20px]" data-name="Checkbox">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 overflow-clip size-[12px] top-1/2" data-name="Essentials/check">
+        <div className="absolute bottom-1/4 left-[16.67%] right-[16.67%] top-[29.17%]" data-name="Icon">
+          <div className="absolute inset-[-18.18%_-12.5%_-14.42%_-12.5%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 7.29289">
+              <path d={svgPaths.pb22ca00} id="Icon" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeWidth="2" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AlignToText2() {
+  return (
+    <div className="content-stretch flex items-center justify-center py-[2px] relative shrink-0" data-name="Align to Text">
+      <Checkbox2 />
+    </div>
+  );
+}
+
+function Frame15() {
+  return (
+    <div className="content-stretch flex gap-[4px] items-center relative shrink-0">
+      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="place">
+        <div className="absolute inset-[8.33%_20.83%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.33333 13.3333">
+            <path d={svgPaths.p31325400} fill="var(--fill-0, #68727D)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] overflow-hidden relative shrink-0 text-[#252525] text-[16px] text-ellipsis">WH-A02</p>
+    </div>
+  );
+}
+
+function Frame21() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0">
+      <Frame15 />
+      <p className="font-['Figtree:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#68727d] text-[13px] text-ellipsis">Loading Dock 2, Central Distribution Center</p>
+    </div>
+  );
+}
+
+function Frame10() {
+  return (
+    <div className="content-stretch flex gap-[14px] items-start relative shrink-0">
+      <div className="content-stretch cursor-pointer flex gap-[8px] items-center relative shrink-0" data-name="Checkbox">
+        <AlignToText2 />
+      </div>
+      <Frame21 />
+    </div>
+  );
+}
+
+function Frame30() {
+  return (
+    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+      <Frame10 />
+      <div className="bg-[#f7f7f8] content-stretch flex items-center px-[8px] py-[2px] relative rounded-[128px] shrink-0" data-name="Label">
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[13px]">1,000 EA</p>
+      </div>
+    </div>
+  );
+}
+
+function Checkbox3() {
+  return (
+    <div className="bg-[#0a77ff] relative rounded-[6px] shrink-0 size-[20px]" data-name="Checkbox">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 overflow-clip size-[12px] top-1/2" data-name="Essentials/check">
+        <div className="absolute bottom-1/4 left-[16.67%] right-[16.67%] top-[29.17%]" data-name="Icon">
+          <div className="absolute inset-[-18.18%_-12.5%_-14.42%_-12.5%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 7.29289">
+              <path d={svgPaths.pb22ca00} id="Icon" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeWidth="2" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AlignToText3() {
+  return (
+    <div className="content-stretch flex items-center justify-center py-[2px] relative shrink-0" data-name="Align to Text">
+      <Checkbox3 />
+    </div>
+  );
+}
+
+function Frame16() {
+  return (
+    <div className="content-stretch flex gap-[4px] items-center relative shrink-0">
+      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="place">
+        <div className="absolute inset-[8.33%_20.83%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.33333 13.3333">
+            <path d={svgPaths.p31325400} fill="var(--fill-0, #68727D)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] overflow-hidden relative shrink-0 text-[#252525] text-[16px] text-ellipsis">WH-B03</p>
+    </div>
+  );
+}
+
+function Frame22() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0">
+      <Frame16 />
+      <p className="font-['Figtree:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#68727d] text-[13px] text-ellipsis">Loading Dock 3, Central Distribution Center</p>
+    </div>
+  );
+}
+
+function Frame12() {
+  return (
+    <div className="content-stretch flex gap-[14px] items-start relative shrink-0">
+      <div className="content-stretch cursor-pointer flex gap-[8px] items-center relative shrink-0" data-name="Checkbox">
+        <AlignToText3 />
+      </div>
+      <Frame22 />
+    </div>
+  );
+}
+
+function Frame31() {
+  return (
+    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+      <Frame12 />
+      <div className="bg-[#f7f7f8] content-stretch flex items-center px-[8px] py-[2px] relative rounded-[128px] shrink-0" data-name="Label">
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[13px]">1,000 EA</p>
+      </div>
+    </div>
+  );
+}
+
+function Checkbox4() {
+  return (
+    <div className="bg-[#0a77ff] relative rounded-[6px] shrink-0 size-[20px]" data-name="Checkbox">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-1/2 overflow-clip size-[12px] top-1/2" data-name="Essentials/check">
+        <div className="absolute bottom-1/4 left-[16.67%] right-[16.67%] top-[29.17%]" data-name="Icon">
+          <div className="absolute inset-[-18.18%_-12.5%_-14.42%_-12.5%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 10 7.29289">
+              <path d={svgPaths.pb22ca00} id="Icon" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeWidth="2" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function AlignToText4() {
+  return (
+    <div className="content-stretch flex items-center justify-center py-[2px] relative shrink-0" data-name="Align to Text">
+      <Checkbox4 />
+    </div>
+  );
+}
+
+function Frame17() {
+  return (
+    <div className="content-stretch flex gap-[4px] items-center relative shrink-0">
+      <div className="overflow-clip relative shrink-0 size-[16px]" data-name="place">
+        <div className="absolute inset-[8.33%_20.83%]" data-name="Vector">
+          <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.33333 13.3333">
+            <path d={svgPaths.p31325400} fill="var(--fill-0, #68727D)" id="Vector" />
+          </svg>
+        </div>
+      </div>
+      <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] overflow-hidden relative shrink-0 text-[#252525] text-[16px] text-ellipsis">WH-C05</p>
+    </div>
+  );
+}
+
+function Frame23() {
+  return (
+    <div className="content-stretch flex flex-col gap-[4px] items-start relative shrink-0">
+      <Frame17 />
+      <p className="font-['Figtree:Regular',sans-serif] font-normal leading-[normal] overflow-hidden relative shrink-0 text-[#68727d] text-[13px] text-ellipsis">Loading Dock 5, Central Distribution Center</p>
+    </div>
+  );
+}
+
+function Frame13() {
+  return (
+    <div className="content-stretch flex gap-[14px] items-start relative shrink-0">
+      <div className="content-stretch cursor-pointer flex gap-[8px] items-center relative shrink-0" data-name="Checkbox">
+        <AlignToText4 />
+      </div>
+      <Frame23 />
+    </div>
+  );
+}
+
+function Frame32() {
+  return (
+    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full">
+      <Frame13 />
+      <div className="bg-[#f7f7f8] content-stretch flex items-center px-[8px] py-[2px] relative rounded-[128px] shrink-0" data-name="Label">
+        <p className="font-['Figtree:Medium',sans-serif] font-medium leading-[normal] relative shrink-0 text-[#68727d] text-[13px]">2,000 EA</p>
+      </div>
+    </div>
+  );
+}
+
+function PickDropCards() {
+  return (
+    <div className="bg-white relative rounded-[8px] shadow-[0px_1px_3px_0px_rgba(16,24,40,0.1),0px_1px_2px_0px_rgba(16,24,40,0.1)] shrink-0 w-full" data-name="Pick/Drop Cards">
+      <div className="flex flex-col justify-center size-full">
+        <div className="content-stretch flex flex-col gap-[16px] items-start justify-center pb-[16px] pt-[12px] px-[14px] relative w-full">
+          <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[#252525] text-[18px] tracking-[-0.18px]">Count Locations</p>
+          <Frame29 />
+          <Frame11 />
+          <Frame30 />
+          <Frame31 />
+          <Frame32 />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame8() {
+  return (
+    <div className="bg-[#ecf4fc] flex-[1_0_0] h-full min-h-px min-w-px relative rounded-[12px]">
+      <div aria-hidden="true" className="absolute border border-[#0e69e2] border-solid inset-0 pointer-events-none rounded-[12px]" />
+      <div className="flex flex-col items-center size-full">
+        <div className="content-stretch flex flex-col gap-[16px] items-center pb-[24px] pt-[14px] px-[12px] relative size-full">
+          <Frame19 />
+          <PickDropCards />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Frame18() {
+  return (
+    <div className="flex-[1_0_0] min-h-px min-w-px relative w-full z-[1]">
+      <div className="content-stretch flex gap-[16px] items-start p-[16px] relative size-full">
+        <Frame7 />
+        <Frame8 />
+      </div>
+    </div>
+  );
+}
+
+function Frame2() {
+  return (
+    <div className="content-stretch flex flex-col isolate items-start relative shrink-0 w-full z-[2]">
+      <p className="font-['Figtree:SemiBold',sans-serif] font-semibold leading-[normal] relative shrink-0 text-[#252525] text-[18px] tracking-[-0.18px] w-full whitespace-pre-wrap z-[1]">Additional Instructions</p>
+    </div>
+  );
+}
+
+function Attachments() {
+  return (
+    <div className="content-stretch cursor-pointer flex gap-[8px] items-center relative shrink-0 w-full" data-name="Attachments">
+      <button className="content-stretch flex items-start relative shrink-0" data-name="attachments">
+        <div className="bg-white relative rounded-[128px] shrink-0" data-name="Web Icon Button">
+          <div className="content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[inherit]">
+            <div className="overflow-clip relative shrink-0 size-[20px]" data-name="Essentials/plus">
+              <div className="absolute inset-[16.67%]" data-name="Icon">
+                <div className="absolute inset-[-6.25%]">
+                  <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+                    <path d="M9 1V17M17 9L1 9" id="Icon" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeWidth="2" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-[-0.5px] pointer-events-none rounded-[128.5px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+        </div>
+      </button>
+      <button className="content-stretch flex items-start relative shrink-0" data-name="Record">
+        <div className="bg-white relative rounded-[128px] shrink-0" data-name="Web Icon Button">
+          <div className="content-stretch flex items-center justify-center overflow-clip p-[10px] relative rounded-[inherit]">
+            <div className="overflow-clip relative shrink-0 size-[20px]" data-name="Essentials/plus">
+              <div className="absolute inset-[16.67%]" data-name="Icon">
+                <div className="absolute inset-[-6.25%]">
+                  <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18 18">
+                    <path d="M9 1V17M17 9L1 9" id="Icon" stroke="var(--stroke-0, black)" strokeLinecap="round" strokeWidth="2" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-[-0.5px] pointer-events-none rounded-[128.5px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)]" />
+        </div>
+      </button>
+    </div>
+  );
+}
+
+function Controls() {
+  return (
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full" data-name="controls">
+      <div className="h-0 relative shrink-0 w-full">
+        <div className="absolute inset-[-1px_0_0_0]">
+          <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 920 1">
+            <line id="Line 1454" stroke="var(--stroke-0, #EAEBF0)" x2="920" y1="0.5" y2="0.5" />
+          </svg>
+        </div>
+      </div>
+      <Attachments />
+    </div>
+  );
+}
+
+function Inner() {
+  return (
+    <div className="content-stretch flex flex-col gap-[24px] isolate items-start relative shrink-0 w-[976px]" data-name="Inner">
+      <div className="content-stretch flex flex-col items-start p-[16px] relative rounded-[10px] shadow-[0px_0px_1px_0px_rgba(113,128,150,0.03),0px_4px_8px_0px_rgba(113,128,150,0.06)] shrink-0 z-[4]" data-name="Header" style={{ backgroundImage: "linear-gradient(171.16deg, rgba(255, 255, 255, 0.04) 19.507%, rgba(228, 228, 228, 0.2) 76.404%), linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)" }}>
+        <Frame36 />
+        <div className="absolute inset-0 pointer-events-none rounded-[inherit] shadow-[inset_1.2px_1.4px_2px_0px_rgba(83,83,83,0.06),inset_-0.8px_-1.2px_1.8px_0px_rgba(137,137,137,0.12),inset_0.4px_0.8px_2px_0px_rgba(119,119,119,0.1)]" />
+      </div>
+      <div className="bg-white content-stretch flex flex-col gap-[4px] h-[900px] isolate items-start relative rounded-[12px] shrink-0 w-[976px] z-[3]" data-name="Item Selection">
+        <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[12px]" />
+        <CardHeader />
+        <SearchBar />
+        <Frame18 />
+      </div>
+      <div className="bg-white relative rounded-[12px] shrink-0 w-full z-[2]" data-name="Cycle Count - Additional Instructions">
+        <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[12px]" />
+        <div className="flex flex-col items-center justify-center size-full">
+          <div className="content-stretch flex flex-col gap-[20px] isolate items-center justify-center p-[16px] relative w-full">
+            <Frame2 />
+            <div className="bg-[#fafbfc] relative rounded-[8px] shrink-0 w-full z-[1]" data-name="Notes/Attachment">
+              <div aria-hidden="true" className="absolute border border-[#eaebf0] border-solid inset-0 pointer-events-none rounded-[8px]" />
+              <div className="flex flex-col justify-center size-full">
+                <div className="content-stretch flex flex-col gap-[6px] items-start justify-center px-[12px] py-[8px] relative w-full">
+                  <div className="content-stretch flex items-center py-[14px] relative shrink-0 w-full" data-name="Type notes">
+                    <button className="block cursor-pointer flex-[1_0_0] font-['Figtree:Medium',sans-serif] font-medium leading-[0] min-h-px min-w-px relative text-[#a1a4ac] text-[14px] text-left">
+                      <p className="leading-[normal] whitespace-pre-wrap">Type your notes here</p>
+                    </button>
+                  </div>
+                  <p className="font-['Figtree:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#68727d] text-[14px] text-right w-full whitespace-pre-wrap">0/2500</p>
+                  <Controls />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-[#fafbfc] h-[107px] shrink-0 w-[976px] z-[1]" />
+    </div>
+  );
+}
+
+export default function CreateNewWarehouse() {
+  return (
+    <div className="content-stretch flex flex-col items-center relative size-full" data-name="Create New Warehouse">
+      <Header />
+      <Inner />
+    </div>
+  );
+}
